@@ -5,7 +5,6 @@ import WatchList from "./components/WatchList";
 import Banner from "./components/Banner";
 import { BrowserRouter, Routes, Route } from "react-router";
 import { useEffect, useState } from "react";
-import { set } from "mongoose";
 
 function App() {
   let [watchlist, setWatchList] = useState([]);
